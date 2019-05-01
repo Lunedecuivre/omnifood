@@ -1,0 +1,607 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: grey;
+    word-spacing: 2px;
+    margin-bottom: 30px;
+    font-weight:300;
+}
+
+.separation{
+    width: 300px;
+    border: 1px solid #e67e22;
+    margin-left: 38%; 
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+#navbarflex{
+    position:fixed;
+    z-index:1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding:1rem 2rem;
+    background-color: white;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 10px grey;
+}
+
+#logoflex img{
+    width:50px;
+}
+
+#liensflex{
+    text-transform: uppercase;
+    color:black;
+}
+
+#logo img{
+    width: 100px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 2rem;
+}
+
+#liens{
+    text-transform: uppercase;
+    color: white;
+}
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(images/hero-min.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+}
+
+#home{
+    height: 500px;
+}
+
+#home h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 300;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+#home button{
+    background-color: #e67e22;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    border-radius:25px;
+    margin-left: 5%;
+}
+
+/* section 2 */
+
+#presentation{
+    height:700px;
+}
+#presentation1 h2{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 2.3rem;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    font-weight:300;
+    width: 70%;
+    margin-left: 15%;
+
+}
+
+#presentation1 p{
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+#presentation1{
+    margin-bottom: 100px;
+}
+
+#presentation2{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:center;
+    padding:0 2em;
+}
+
+
+.logopres{
+    height:100px;
+}
+
+.logopres img{
+    width: 55px;
+}
+
+.presbox h3{
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 1.4rem;
+}
+
+.presbox{
+    background-color: white;
+    height: 300px;
+    width: 22%;
+    margin: 20px;
+}
+
+/*galerie*/
+.section-meals {
+	padding: 0;
+}
+
+
+.clearfix {zoom:1}
+.clearfix:after {
+	content: '.';
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+
+.meals-showcase {
+	list-style: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+align-items: flex-start;
+}
+
+.meals-showcase div{
+	display: flex;
+    width: 25%;
+    flex-direction: row;
+
+}
+
+.meal-photo {
+	width: 100%;
+	margin: 0;
+	overflow: hidden;
+	background-color: #000;
+}
+
+.meal-photo img {
+	opacity: 0.7;
+	width: 100%;
+	height: auto;
+	-webkit-transform: scale(1.15);
+	    -ms-transform: scale(1.15);
+	        transform: scale(1.15);
+	-webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+	transition: opacity 0.5s, -webkit-transform 0.5s;
+	transition: transform 0.5s, opacity 0.5s;
+	transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
+}
+
+.meal-photo img:hover {
+	opacity: 1;
+	-webkit-transform: scale(1.03);
+	    -ms-transform: scale(1.03);
+	        transform: scale(1.03);
+}
+
+/*how*/
+
+#howitworks{
+    background-color: #f4f4f4;
+    height: 900px;
+}
+
+
+#how1{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+#how1 h2{
+    font-weight: 300;
+}
+
+#illu img{
+    height: 400px;
+}
+
+#listehow{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+}
+
+.lignehow{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100px;
+}
+
+
+.chiffrehow{
+    width: 2em;
+    height: 2em;
+    border: 2px solid #e67e22;
+    border-radius: 100%;
+    color: #e67e22;
+    padding: 2.5% 5%;
+    margin-right: 20px;
+    font-size: 2rem;
+    overflow:hidden;
+}
+
+.chiffrehow p{
+    text-align: center;
+}
+
+
+#how2{
+    width:100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#illu{
+    width:20%;
+}
+
+#how2pres{
+    height: 300px;
+    width:40%;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items:center;
+    font-size: 1.4rem;
+}
+
+#how2images{
+    width: 100%;
+}
+
+#how2images img{
+    height: 50px;
+}
+
+
+/*lieux*/
+
+#lieux{
+    height: 700px;
+}
+
+#lieux1{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+
+}
+
+#lieux1 h2{
+    font-weight: 300;
+}
+
+#lieux2{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: space-around;
+}
+
+#lieux2 h4{
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    padding:0;
+    margin:0;
+    font-weight: 300;
+}
+
+.villetexte{
+font-size: 1.2rem;
+margin-left: 10px;
+}
+.villephoto img{
+    width: 80%;
+    margin:10px;
+}
+
+/*customers*/
+
+#custo1{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+#custo1 h2{
+    font-weight:300;
+}
+
+#customers{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/back-customers-min.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    height: 600px;
+}
+
+
+#custo2{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: space-between;
+    margin: 0 5em;
+}
+
+#custo2 img{
+    width: 50px;
+    border-radius:50%;
+}
+
+.nom{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    width: 100%;
+    align-items: center;
+}
+
+.custobox{
+    font-style: italic;
+    font-size: 1.2rem;
+    width: 30%;
+}
+
+.custobox h4{
+    font-weight: 300;
+}
+
+/*abo*/
+#abonnement{
+    height:900px;
+    background-color: #f4f4f4;
+}
+
+#abo1 h2{
+    font-weight: 300;
+}
+
+#abo1{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+#abo2{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.abo2box{
+    background-color: white;
+    height: 500px;
+    width: 25%;
+    border-radius:5px;
+}
+
+.prix{
+    background-color: #fcfcfc;
+    height: 150px;
+    border-bottom: 1px solid #e8e8e8;
+    padding:0;
+    margin:0;
+}
+
+.nomabo{
+    text-transform: uppercase;
+    font-weight: 300;
+    padding:0;
+    margin:15px;
+}
+
+.prixabo{
+    font-weight: 300;
+    color: #e67e22;
+    font-size: 3rem;
+    padding:0;
+    margin:0 15px;
+}
+
+.prixabo span{
+    font-size: 1rem;
+}
+
+.prix h6{
+    margin:0 15px;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.features{
+    height: 250px;
+    line-height: 4rem;
+}
+
+.features i{
+    margin-right: 10px;
+}
+.features ul{
+    list-style: none;
+    font-size: 1.2rem;
+}
+.signup{
+    background-color: #fcfcfc;
+    height:100px;
+    border-top: 1px solid #e8e8e8;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup button{
+    background-color: #e67e22;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    border-radius:25px;
+}
+
+/*contact*/
+
+#contact h2{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+#contact{
+    height: 700px;
+}
+
+
+.contact-form {
+	width: 60%;
+	margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+	width: 100%;
+	padding: 7px;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+}
+
+textarea {
+	height: 100px;
+}
+
+input[type=checkbox] {
+	margin: 10px 5px 10px 0;
+}
+
+*:focus {outline: none}
+
+
+
+/*footer*/
+
+footer{
+    background-color: #333;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    height: 200px;
+    padding: 2em;
+}
+
+#footer1{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+}
+
+#footerliens{
+    width: 300px;
+    height:50px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+}
+
+#footersm{
+    width: 100px;
+    height:50px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+}
+
+#footerliens a{
+    text-decoration: none;
+    color: grey;
+}
+
+#footer2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#buttonfoot{
+    background-color: #e67e22;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    border-radius:25px;
+}
